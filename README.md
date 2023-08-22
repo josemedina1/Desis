@@ -65,7 +65,7 @@ Insertar datos en tabla CANDIDATO
 
 # URL DEL PROYECTO
 ```
-"http://localhost/DesisCL" 
+"http://localhost/Desis" 
 
 Esta ruta se debe copiar y pegar en el navegador para acceder a la vista del formulario.
 ```

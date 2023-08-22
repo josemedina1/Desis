@@ -2,7 +2,7 @@
 if (isset($_GET['region_id'])) {
     $regionId = $_GET['region_id'];
 
-    // Conexión a la base de datos (reemplaza con tus datos de conexión)
+    // Conexión a la base de datos
     $servername = "localhost";
     $username = "root";
     $password = "";

@@ -43,7 +43,7 @@ Para descargar el repositorio se debe ingresar a  la ruta "C:\xampp\htdocs",
 una vez dentro de la carpeta "htdocs" se descarga el repositorio DesisCL.
 
 Para acceder al formulario se debe acceder a la siguiente URL:
-"http://localhost/DesisCL".
+"http://localhost/Desis".
 
 Luego de acceder a la URL se puede hacer uso del formulario y realizar test de las validaciones de los campos.
 
