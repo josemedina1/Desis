@@ -105,7 +105,6 @@
     <!-- Libreria Jquery -->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="assets/js/validaciones.js"></script>
-    <script src="assets/js/validador_rut_m11.js"></script>
     <script>
         function updateSelectComunas(selectedRegion) {
             // AJAX para obtener las comunas según la región seleccionada
