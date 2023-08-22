@@ -117,7 +117,7 @@
             xhttp.open("GET", "php/get_comunas.php?region_id=" + selectedRegion, true);
             xhttp.send();
         }
-    </script>
+    </script> 
 
 
 </body>
