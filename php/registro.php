@@ -16,54 +16,60 @@
             $comoseentero = trim($_POST['comoseentero']);
 
             //Control de error numerico regiones ya que solo se envia la id mediante POST
-            if($region == 1){
-                $region = 'Arica y Parinacota';
-            }
-            if($region == 2){
-                $region = 'Tarapacá';
-            }
-            if($region == 3){
-                $region = 'Antofagasta';
-            }
-            if($region == 4){
-                $region = 'Atacama';
-            }
-            if($region == 5){
-                $region = 'Coquimbo';
-            }
-            if($region == 6){
-                $region = 'Valparaíso';
-            }
-            if($region == 7){
-                $region = 'Bernardo O’Higgins';
-            }
-            if($region == 8){
-                $region = 'Maule';
-            }
-            if($region == 9){
-                $region = 'Metropolitana de Santiago';
-            }
-            if($region == 10){
-                $region = 'Ñuble';
-            }
-            if($region == 11){
-                $region = 'Biobío';
-            }
-            if($region == 12){
-                $region = 'Araucanía';
-            }
-            if($region == 13){
-                $region = 'Los Ríos';
-            }
-            if($region == 14){
-                $region = 'Los Lagos';
-            }
-            if($region == 15){
-                $region = 'Aisén';
-            }
-            if($region == 16){
-                $region = 'Magallanes';
-            }
+            switch ($region) {
+    case 1:
+        $region = 'Arica y Parinacota';
+        break;
+    case 2:
+        $region = 'Tarapacá';
+        break;
+    case 3:
+        $region = 'Antofagasta';
+        break;
+    case 4:
+        $region = 'Atacama';
+        break;
+    case 5:
+        $region = 'Coquimbo';
+        break;
+    case 6:
+        $region = 'Valparaíso';
+        break;
+    case 7:
+        $region = 'Bernardo O’Higgins';
+        break;
+    case 8:
+        $region = 'Maule';
+        break;
+    case 9:
+        $region = 'Metropolitana de Santiago';
+        break;
+    case 10:
+        $region = 'Ñuble';
+        break;
+    case 11:
+        $region = 'Biobío';
+        break;
+    case 12:
+        $region = 'Araucanía';
+        break;
+    case 13:
+        $region = 'Los Ríos';
+        break;
+    case 14:
+        $region = 'Los Lagos';
+        break;
+    case 15:
+        $region = 'Aisén';
+        break;
+    case 16:
+        $region = 'Magallanes';
+        break;
+    default:
+        echo 'Selecciona una Comuna';
+        break;
+}
+
 
 
             // consulta a BD para insertar los datos

@@ -2,6 +2,13 @@
 ```
 PRUEBA DE DIAGNOSTICO DESIS.CL
 ```
+# URL DEL PROYECTO
+```
+"http://localhost/desis/" 
+
+Esta ruta se debe copiar y pegar en el navegador para acceder a la vista del formulario.
+```
+
 # RUTA DE DESCARGA DEL REPOSITORIO
 ```
 "C:\xampp\htdocs"
@@ -61,15 +68,6 @@ Insertar datos en tabla COMUNA
 Insertar datos en tabla CANDIDATO
 ```
 <img src="assets/document/insertar_candidatos.gif" alt="insertar_candidato" width="600px">
-
-
-# URL DEL PROYECTO
-```
-"http://localhost/Desis" 
-
-Esta ruta se debe copiar y pegar en el navegador para acceder a la vista del formulario.
-```
-<img src="assets/document/url.png" alt="Ruta_descarga_repositorio_GIT" width="600px">
 
 # INTERACCIÓN CON FORMULARIO
 

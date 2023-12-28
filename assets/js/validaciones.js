@@ -116,3 +116,15 @@ $(document).ready(function() {
 
 });
 
+function submitForm(event) {
+	// Evitar el comportamiento predeterminado (refresco de la página)
+	event.preventDefault();
+
+	// Realiza aquí las acciones que necesitas después de evitar el refresco
+	console.log("Formulario enviado (sin refresco de página)");
+
+	// Puedes agregar más lógica aquí si es necesario
+
+	// O puedes enviar el formulario programáticamente si lo deseas
+	// document.getElementById("myForm").submit();
+}
